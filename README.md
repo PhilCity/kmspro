@@ -26,7 +26,7 @@ wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/PhilCity/kmspro@maste
 
 ### 启动KMS服务
 ```
-bash k.sh start
+bash kmspro.sh start
 
 服务器IP地址既是KMS服务器地址
 也可以将域名解析至IP使用（支持IPv6 即AAAA记录）
@@ -36,27 +36,27 @@ bash k.sh start
 
 ### 关闭KMS服务
 ```
-bash k.sh stop
+bash kmspro.sh stop
 ```
 
 ### 添加开机自启动KMS服务
 ```
-bash k.sh auto
+bash kmspro.sh auto
 ```
 
 ### 重启KMS服务
 ```
-bash k.sh restart
+bash kmspro.sh restart
 ```
 
 ### 查看KMS服务运行状态
 ```
-bash k.sh status
+bash kmspro.sh status
 ```
 
 ### 卸载KMS服务
 ```
-bash k.sh uninstall
+bash kmspro.sh uninstall
 ```
 
 ## Windows系统 自建KMS服务器
